@@ -11,9 +11,15 @@ const Welcome = () => {
 
   return (
     <main className="welcome">
-      <h2>Welcome to React Chat.</h2>
-      <img src="/logo512.png" alt="ReactJs logo" width={50} height={50} />
-      <p>Sign in with Google to chat with with your fellow React Developers.</p>
+      <h1>Welcome to amber agent chat portal.</h1>
+      <img
+        src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/h9afywbnumh6c1xkjmub"
+        alt="ReactJs logo"
+        width={"10%"}
+        height={"10%"}
+      />
+      {/* <p>Sign in with Google to chat with with your fellow React Developers.</p> */}
+      <br />
       <button className="sign-in">
         <img
           onClick={googleSignIn}
